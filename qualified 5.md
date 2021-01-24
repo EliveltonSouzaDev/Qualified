@@ -57,7 +57,9 @@ function somaMista( arr )
 ### 3 - Crie uma função que recebe dois argumentos:
 
 1 - Um array de objetos, onde cada objeto possui propriedades relativas a temporada, o time e o país vencedor da Liga dos Campeões.
+
 2 - País (uma string, por exemplo, 'Portugal')
+
 Sua função deve retornar o número de vezes que uma equipe de um determinado país ganhou. Retorne 0 se não houver vitórias.
 
 Por exemplo, se a matriz de entrada for a seguinte:
