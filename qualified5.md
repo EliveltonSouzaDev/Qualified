@@ -1,4 +1,4 @@
-### 1 Nesse exercício, dado um número, encontre o seu oposto.
+### 1 - Nesse exercício, dado um número, encontre o seu oposto.
 
 Exemplos:
 
@@ -22,7 +22,7 @@ Exemplos:
 } 
 ```
 
-### 2 Dado um array de inteiros representados como strings e números, retorne a soma dos valores do array como se todos os itens fossem números.
+### 2 - Dado um array de inteiros representados como strings e números, retorne a soma dos valores do array como se todos os itens fossem números.
 
 Exemplo de array passado como parâmetro:
 
@@ -51,7 +51,7 @@ function somaMista( arr )
  }
 ```
 
-### 3 Crie uma função que recebe dois argumentos:
+### 3 - Crie uma função que recebe dois argumentos:
 
 1 - Um array de objetos, onde cada objeto possui propriedades relativas a temporada, o time e o país vencedor da Liga dos Campeões.
 2 - País (uma string, por exemplo, 'Portugal')
@@ -115,7 +115,7 @@ countWins(winnerList1, 'Sportland') => deve retornar 0
 
 
 
-### 4 Quem deveria ganhar uma bicicleta?
+### 4 - Quem deveria ganhar uma bicicleta?
 
 Eu sou pai de três filhos maravilhosos.
 
@@ -205,7 +205,7 @@ recompensa(
 ​                 }
 ```
 
-​***Resposta:1**
+​**Resposta:1**
 
 ```javascript
 function recompensa(boletim1, boletim2, boletim3) {
@@ -271,7 +271,7 @@ for (let i in boletim3) {
 }
 ```
 
- ### 5 Seu objetivo neste desafio é implementar uma função de diferença, que subtrai uma lista da outra e retorna a lista resultante.
+ ### 5 - Seu objetivo neste desafio é implementar uma função de diferença, que subtrai uma lista da outra e retorna a lista resultante.
 
 Ele deve remover todos os valores da lista a, que estão presentes na lista b.
 
@@ -302,7 +302,7 @@ function arrayDiff(a, b)
 ```
 
 
-### 6 No número de 6 dígitos abaixo:
+### 6 - No número de 6 dígitos abaixo:
 
 283910
 
