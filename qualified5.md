@@ -22,6 +22,7 @@ Exemplos:
 } 
 ```
 
+
 ### 2 - Dado um array de inteiros representados como strings e números, retorne a soma dos valores do array como se todos os itens fossem números.
 
 Exemplo de array passado como parâmetro:
@@ -50,6 +51,8 @@ function somaMista( arr )
    return soma
  }
 ```
+
+
 
 ### 3 - Crie uma função que recebe dois argumentos:
 
@@ -112,6 +115,24 @@ countWins(winnerList1, 'Spain') => deve retornar 2
 countWins(winnerList1, 'Portugal') => deve retornar 1
 
 countWins(winnerList1, 'Sportland') => deve retornar 0
+
+
+**Resposta:1**
+
+
+```javascript 
+function countWins(winnerList, country) {
+  
+  var vitorias = 0;
+  
+  for (let i = 0 ; i < winnerList.length; i++){
+    if(winnerList[i].country == country){
+      vitorias ++
+    }
+    }
+        return vitorias
+}
+```
 
 
 
