@@ -128,6 +128,7 @@ function countWins(winnerList, country) {
   var vitorias = 0;
   
   for (let i = 0 ; i < winnerList.length; i++){
+    
     if(winnerList[i].country == country){
       vitorias ++
     }
