@@ -51,7 +51,7 @@ function somaMista( arr )
  }
 ```
 
-**Crie uma função que recebe dois argumentos:**
+### 3 Crie uma função que recebe dois argumentos:
 
 1 - Um array de objetos, onde cada objeto possui propriedades relativas a temporada, o time e o país vencedor da Liga dos Campeões.
 2 - País (uma string, por exemplo, 'Portugal')
