@@ -19,11 +19,13 @@ Exemplos:
 
   return numero * -1
 
-} ```
+} 
+```
 
 ### 2 Dado um array de inteiros representados como strings e números, retorne a soma dos valores do array como se todos os itens fossem números.
 
 Exemplo de array passado como parâmetro:
+
 ```javascript
 [ 1, '2', '3', 4, 5 ]; // Neste caso, retornaria 15
 ```
@@ -32,11 +34,10 @@ Sua função deve retornar um número.
 
 
 
-
+```javascript
 function somaMista( arr )
 
 {
-
  let soma = 0;
 
  for (let i in arr){
@@ -46,13 +47,9 @@ function somaMista( arr )
   soma += num
 
  }
-
- //
-
    return soma
-
  }
-
+```
 
 **Crie uma função que recebe dois argumentos:**
 
@@ -118,9 +115,6 @@ countWins(winnerList1, 'Sportland') => deve retornar 0
 
 
 
-
-
-
 ### 4 Quem deveria ganhar uma bicicleta?
 
 Eu sou pai de três filhos maravilhosos.
@@ -128,6 +122,7 @@ Eu sou pai de três filhos maravilhosos.
 Antes do início do ano letivo, prometi a eles que compraria uma bicicleta para quem trouxesse as melhores notas no final do ano. Agora eu preciso cumprir a promessa e vou precisar da sua ajuda.
 
 Você tem 3 objetos de entrada (os boletins) com as disciplinas e notas (que vão de 1 até 10). Por exemplo:
+
 ```javascript
 {
 
@@ -143,14 +138,17 @@ Você tem 3 objetos de entrada (os boletins) com as disciplinas e notas (que vã
 
 }
 ```
-``
+
 Por favor, retorne o seguinte
 
 'Eu preciso comprar uma bicicleta para meu primeiro filho.' // a soma das notas é a mais alta no primeiro diário.
+
 'Eu preciso comprar uma bicicleta para meu segundo filho.' // a soma das notas é a mais alta no segundo diário.
+
 'Eu preciso comprar uma bicicleta para meu terceiro filho.' // a soma das notas é a mais alta no terceiro diário.
+
 Se dois ou três filhos têm as mesmas notas mais altas, você precisa escolher o mais jovem. Use a tabela de idade que é constante e já está pré-carregada:
-``
+
 ```javascript
 const tabelaIdades = {
 
@@ -161,10 +159,9 @@ const tabelaIdades = {
  'idadeTerceiroFilho': 8
 
 }
-
-
+```
+```javascript
 recompensa(
-
 ​                 {
 
 ​                  'matematica': 6,
@@ -208,7 +205,7 @@ recompensa(
 ​                 }
 ```
 
-​***Resposta**
+​***Resposta:1**
 
 ```javascript
 function recompensa(boletim1, boletim2, boletim3) {
@@ -283,7 +280,7 @@ arrayDiff([1,2], [1]); // Retorna [2]
 ```
 Se um valor estiver presente em b, todas as suas ocorrências devem ser removidas de a:
 
-**Resposta**
+**Resposta:1**
 ```javascript
 function arrayDiff(a, b)
 
@@ -323,7 +320,7 @@ O número na entrada será passado como uma string somente com dígitos, nenhuma
 
 O retorno deverá ser um número inteiro. O número passado pode ter no mínimo 5 dígitos e no máximo 1000 dígitos.
 
-**Resposta**
+**Resposta:1**
 ```javascript
 function solucao( digitos )
 
